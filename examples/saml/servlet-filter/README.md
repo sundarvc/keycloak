@@ -13,7 +13,7 @@ create a new admin password before you can go to the create realm page.
 
 . cddemo.sh
 
-./start_auth_server
+./start_auth_server.sh
 
 [http://localhost:9999/auth/admin/master/console/#/create/realm](http://localhost:9999/auth/admin/master/console/#/create/realm)
 
