@@ -11,7 +11,11 @@ If you haven't already done so, you need to import the test realm for this examp
 create realm page in the Admin UI.  The username/password is admin/admin to login in.  Keycloak will ask you to
 create a new admin password before you can go to the create realm page.
 
-[http://localhost:8080/auth/admin/master/console/#/create/realm](http://localhost:8080/auth/admin/master/console/#/create/realm)
+. cddemo.sh
+
+./start_auth_server
+
+[http://localhost:9999/auth/admin/master/console/#/create/realm](http://localhost:9999/auth/admin/master/console/#/create/realm)
 
 Import the testsaml.json file that is in the saml/ example directory.
 
@@ -20,8 +24,9 @@ Import the testsaml.json file that is in the saml/ example directory.
 Requires JDK 11.0.7
 
 ```
-$ mvn clean install wildfly:deploy
+$ mvn clean install
 ```
+
 
 ## Access the application
 
