@@ -17,6 +17,8 @@ Import the testsaml.json file that is in the saml/ example directory.
 
 ## Build and Deploy
 
+Requires JDK 11.0.7
+
 ```
 $ mvn clean install wildfly:deploy
 ```
